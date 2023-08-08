@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Play Minecraft using AI</title>
+    <link rel="icon" type="image/png" href="Stone.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"> </script>
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+    <style>
+        body {
+            background-color: rgb(54, 255, 47);
+            color: aliceblue;
+            text-align: center;
+        }
+
+        canvas {
+            background-color: aqua;
+            border-style: ridge;
+            border-color: cadetblue;
+            border-width: 3px;
+        }
+
+        #footer{
+            width: 100%;
+            position:absolute;
+            top:150%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Minecraft with AI</h1>
+        <p>Move your head to move steve, find the diamond to win</p>
+        <hr>
+    </div>
+
+    <div id="footer">
+        <hr>
+        <div class="btn btn-info">Made by Cat__Meow</div>
+        <div class="btn btn-danger">The AI can have errors, it isnt perfect</div>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
